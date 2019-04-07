@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mri_booking/utils/constants.dart';
 
 class MRIImage extends StatelessWidget {
-  final double _paddingTop = 24;
+  final double _paddingTop = 26.5;
   final double paddingHorezintal;
   final double height;
   final String imagePath;
@@ -19,9 +19,7 @@ class MRIImage extends StatelessWidget {
     return Stack(
       children: <Widget>[
         Container(
-          margin: EdgeInsets.only(top: _paddingTop),
           width: double.infinity,
-          height: height,
           decoration: BoxDecoration(
               gradient: LinearGradient(
                 tileMode: TileMode.clamp,

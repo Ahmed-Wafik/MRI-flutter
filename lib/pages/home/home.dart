@@ -71,7 +71,6 @@ class HomePageState extends State<HomePage> {
             flex: 1,
             child: MRIImage(
               imagePath: Constants.imagePath_1,
-              height: 75,
             ),
           ),
           Expanded(
